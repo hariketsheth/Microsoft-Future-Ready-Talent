@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# Reporting-The-Covid19-Trends-In-European-Union-and-UK-Future_Ready_Talent_Project
 
-You can use the [editor on GitHub](https://github.com/hariketsheth/Microsoft-Future-Ready-Talent/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Problem Statement : We are trying to make a platform to give the information of the covid pandemic situation in EU and UK and publish in the form of Power BI reports .This will
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+show the date trends in caes and deaths done ,the RT PCR testing rate as well as hospital and ICU occupancy rates.These Power BI reports will be very helpful to the authorities to ramp up their preperation according to the evolving scenario
 
-### Markdown
+Project Description : The project tries to give visualisation of the evolving covid pandemic situation in EU and UK on a daily basis.The dataset for the total cases,casualities
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+has been taken from the European Center for disease control (ECDC ) website.The testing data has been taken from the Eurostat website We have used Azure Blob storage and Azure Datalake Gen2 for data ingestion and built robust pipelines and dataflows for the transformation of the data extracted from the website using Azure Datafactory .The reports have been published using Power BI
 
-```markdown
-Syntax highlighted code block
+Primary Azure Technology : Azure Data Factory,Azure Blob Storage,Azure Data Lake Storage Gen2
 
-# Header 1
-## Header 2
-### Header 3
+Other Azure Technologies used: Azure HDInsight for running Hive script Azure DataBricks for dataset processing. Azure Datalake Gen2 for handling of the daily updating processed
 
-- Bulleted
-- List
+data from the ECDC and Eurostat website when event is triggered
 
-1. Numbered
-2. List
+Some Screenshots of the Power BI report is as follows :
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hariketsheth/Microsoft-Future-Ready-Talent/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+![image](https://user-images.githubusercontent.com/82048242/148144263-60a0c931-c741-486f-872d-cfb51349ec03.png)
+![image](https://user-images.githubusercontent.com/82048242/148144331-6539239e-5189-446b-b260-51681e08f6f2.png)
+![image](https://user-images.githubusercontent.com/82048242/148144374-15403ae7-632b-416e-9ba8-8b0fb0c61378.png)
+![image](https://user-images.githubusercontent.com/82048242/148144507-3b1013f2-71c5-44fe-91e9-b0fb354e4fa5.png)
